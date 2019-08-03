@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    android:background="#0dc6ff00"
+    tools:context=".Fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="FIRST STEP:"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/PlanBusiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/backgroundbutton1"
+            android:text="HOW TO PLAN A BUSINESS?"
+            android:textColor="#ffff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/ExecuteBusiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/backgroundbutton1"
+            android:text="HOW TO EXECUTE PLAN?"
+            android:textColor="#ffff"
+            android:textSize="18sp" />
+
+        <!--
+
+                <Button
+                        android:layout_gravity="center"
+                        android:id="@+id/LiveChat1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CHAT WITH PROFESSIONALS"
+                        android:textSize="18sp"
+                        android:textColor="#ffff"
+                        android:background="@drawable/backgroundbutton1"
+                        android:layout_margin="5dp"
+                />
+        -->
+
+        <Button
+            android:id="@+id/CreateRev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/backgroundbutton1"
+            android:text="HOW TO CREATE REVENUE?"
+            android:textColor="#ffff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Marketing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/backgroundbutton1"
+            android:text="MARKETING YOUR WORK"
+            android:textColor="#ffff"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="FIND 30 WAYS TO EARN ONLINE:"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/ideasApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/backgroundbutton1"
+            android:text="MY 30 WAYS TO EARN ONLINE:"
+            android:textColor="#ffff"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="CREATE A NETWORK:"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/networkBusiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/backgroundbutton1"
+            android:text="HOW TO CREATE A NETWORK:"
+            android:textColor="#ffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="HOW TO THINK?"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/thinkBusiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/backgroundbutton1"
+            android:text="THINK OF MONEY"
+            android:textColor="#ffff"
+            android:textSize="18sp" />
+
+        <!--
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="LIVE CHAT"
+                          android:textSize="20sp"
+                          android:padding="10dp"
+                          android:layout_gravity="center"
+                          android:gravity="center"
+                />
+
+
+                <Button
+                        android:layout_gravity="center"
+                        android:id="@+id/LiveChat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LET'S MEET OUTHER BUSINESSMEN"
+                        android:textSize="18sp"
+                        android:textColor="#ffff"
+                        android:background="@drawable/backgroundbutton1"
+                        android:layout_margin="5dp"
+                />
+        -->
+
+
+    </LinearLayout>
+</ScrollView>
